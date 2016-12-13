@@ -1,0 +1,37 @@
+.option-row {
+  border: 1px solid;
+  line-height: 1.4em;
+  background: white;
+}
+
+.abs {
+  position: absolute;
+  width: 100%
+}
+
+.highlight {
+  background: yellow;
+}
+
+@media (min-device-width: 500px) {
+	.root {
+		margin-left: 20%;
+		margin-right: 20%;
+		font-size: 1em;
+		font-family: sans-serif;
+    position: relative;	
+  }
+  .root input {
+    width: 100%;
+    line-height: 1.5em;
+  }
+}
+
+@media (max-device-width: 499px) {
+	.root {
+		margin-left: 2%;
+		margin-right: 2%;
+		font-size: 3em;
+		font-family: sans-serif;
+	}
+}
